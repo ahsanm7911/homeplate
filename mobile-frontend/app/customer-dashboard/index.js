@@ -114,6 +114,7 @@ export default function CustomerDashboard() {
       console.log("Order Completed:", response.data);
       showSuccessToast("Order marked as complete!");
       setCurrentOrderId(order_id);
+      setReviewModalVisible(true);
     } catch (error) {
       console.error("Error marking complete:", error.response?.data || error.message);
       showErrorToast(error.response?.data?.detail || "Unable to mark order as complete");
