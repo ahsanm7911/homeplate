@@ -140,7 +140,7 @@ export default function ChefDashboard() {
 
   const handleLogout = async () => {
     try {
-      await api.post("accounts/logout/");
+      // await api.post("accounts/logout/");
       ws?.close();
       await clearAuthData();
       showSuccessToast("Logged out successfully.");
