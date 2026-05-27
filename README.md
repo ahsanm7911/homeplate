@@ -26,7 +26,7 @@
 
 ## Overview
 
-Ghar Ka Zaiqa is a three-sided marketplace:
+HomePlate is a three-sided marketplace:
 
 - **Customers** describe what food they want, set a max budget, and choose a preferred delivery time.
 - **Chefs** browse open orders and place competitive bids with a proposed price and delivery estimate.
@@ -271,7 +271,7 @@ Payload sent by client:
 ## Project Structure
 
 ```
-ghar_ka_zaiqa/
+homeplate/
 ├── backend/                        # Django backend
 │   ├── accounts/                   # User models, auth views, serializers
 │   │   ├── models.py               # CustomUser, Customer, Chef, Order, Bid,
@@ -352,8 +352,8 @@ ghar_ka_zaiqa/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/ahsanm7911/ghar_ka_zaiqa.git
-cd ghar_ka_zaiqa/backend
+git clone https://github.com/ahsanm7911/homeplate.git
+cd homeplate/backend
 
 # 2. Create and activate a virtual environment
 pip install virtualenv
@@ -401,7 +401,7 @@ Verify it is running by visiting the admin panel at **http://localhost:8000/admi
 ### Mobile Frontend Setup
 
 ```bash
-cd ghar_ka_zaiqa/mobile-frontend
+cd homeplate/mobile-frontend
 
 # Install dependencies
 npm install
@@ -425,7 +425,7 @@ npm run ios
 The web frontend handles account activation pages (activation success/failure) and was the original signup/login interface before the mobile app was built.
 
 ```bash
-cd ghar_ka_zaiqa/web-frontend
+cd homeplate/web-frontend
 
 # Install dependencies
 npm install
