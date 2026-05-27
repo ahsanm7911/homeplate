@@ -456,7 +456,7 @@ The backend reads from a `.env` file placed in the `backend/` directory.
 
 | Login Page |
 |---|
-| ![Login Page](./login-page.PNG) |
+| ![Demo](./demo.gif) |
 
 | Environment Variables Example |
 |---|

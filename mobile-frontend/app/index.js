@@ -44,7 +44,7 @@ export default function SplashScreen() {
   return (
     <View style={styles.container}>
       <Animated.View style={{ opacity: fadeAnim }}>
-        <Text style={styles.logo}>🍲 Ghar Ka Zaiqa</Text>
+        <Text style={styles.logo}>🍲 HomePlate</Text>
         <ActivityIndicator
           size="large"
           color={theme.colors.primary}
